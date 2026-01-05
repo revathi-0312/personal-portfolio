@@ -1,0 +1,11 @@
+[36mvite v7.3.0 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32m✓[39m 24 modules transformed.
+[31m✗[39m Build failed in 312ms
+[31merror during build:
+[31mCould not resolve "../assets/sample.png" from "src/pages/Projects.tsx"[31m
+file: [36mC:/Users/Revathi/my-portfolio/src/pages/Projects.tsx[31m
+    at getRollupError (file:///C:/Users/Revathi/my-portfolio/node_modules/rollup/dist/es/shared/parseAst.js:401:41)
+    at error (file:///C:/Users/Revathi/my-portfolio/node_modules/rollup/dist/es/shared/parseAst.js:397:42)
+    at ModuleLoader.handleInvalidResolvedId (file:///C:/Users/Revathi/my-portfolio/node_modules/rollup/dist/es/shared/node-entry.js:21661:24)
+    at file:///C:/Users/Revathi/my-portfolio/node_modules/rollup/dist/es/shared/node-entry.js:21621:26[39m
