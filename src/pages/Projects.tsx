@@ -1,5 +1,5 @@
 import { Badge } from "@/components/ui/badge";
-import { Database, Server, Code2 } from "lucide-react";
+import { Database, Server, Code2 ,Gamepad2,Briefcase} from "lucide-react";
 
 
 const Projects = () => {
@@ -38,6 +38,43 @@ const Projects = () => {
             iconBg: "bg-purple-500/10",
             iconColor: "text-purple-400"
         },
+        {
+            title: "Personal Portolio Website",
+            year: "2026",
+            description:
+                "Designed and built a responsive personal portfolio website using React,Typescript and vite to showcase projects, skills, and contact information. Implemented clean UI, reusable project components and deployment for easy access by recruiters.",
+            technologies: ["React", "TypeScript", "Tailwind CSS", "Vite", "Vercel"],
+            highlights: [
+                "Responsive multi-section layout (Projects, Skills, Contact)",
+                "Clean UI with mobile-first design",
+                "Reusable components for project cards",
+                "Deployed using Vercel for fast global access",
+                "Centralized display of all academic and personal projects",
+            ],
+            icon: Briefcase,
+            color: "from-purple-500 to-pink-500",
+            hoverBorder: "hover:border-purple-500/50",
+            iconBg: "bg-purple-500/10",
+            iconColor: "text-purple-400"
+        }, {
+            title: "Memory Match Game",
+            year: "2026",
+            description:
+                "Developed an interactive Memory Card Game using JavaScript, HTML, and CSS, featuring smart shuffle logic to prevent adjacent matches,move counter for performance tracking. Implemented responsive UI with smooth card interactions to enhance gameplay experience..",
+            technologies: ["PHP", "MySQL", "JavaScript", "CSS"],
+            highlights: [
+                "Role-based access control",
+                "35% reduction in task delays",
+                "Interactive dashboard",
+            ],
+            icon: Gamepad2,
+            color: "from-purple-500 to-pink-500",
+            hoverBorder: "hover:border-purple-500/50",
+            iconBg: "bg-purple-500/10",
+            iconColor: "text-purple-400"
+        },
+
+
     ];
 
     return (
