@@ -61,11 +61,12 @@ const Projects = () => {
             year: "2026",
             description:
                 "Developed an interactive Memory Card Game using JavaScript, HTML, and CSS, featuring smart shuffle logic to prevent adjacent matches,move counter for performance tracking. Implemented responsive UI with smooth card interactions to enhance gameplay experience..",
-            technologies: ["PHP", "MySQL", "JavaScript", "CSS"],
+            technologies: ["HTML", "JavaScript", "CSS"],
             highlights: [
-                "Role-based access control",
-                "35% reduction in task delays",
-                "Interactive dashboard",
+                "Smart shuffle algorithm to prevent adjacent matches-based access control",
+                "Responsive card grid with flip animations",
+                "Minimum moves with match tracking",
+                "Move counter for performance tracking",
             ],
             icon: Gamepad2,
             color: "from-purple-500 to-pink-500",
