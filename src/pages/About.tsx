@@ -1,6 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { BookOpen, Trophy, Award, Code2, Database, Wrench } from "lucide-react";
+import { BookOpen, Trophy, Award, Code2, Database, Wrench, Laptop, BarChart3 } from "lucide-react";
 
 export default function About() {
     return (
@@ -13,10 +13,11 @@ export default function About() {
                         About <span className="text-gradient-primary">Me</span>
                     </h2>
                     <p className="text-muted-foreground text-lg max-w-3xl mx-auto leading-relaxed">
-                        Final-year MCA student with strong expertise in web development, databases, and problem-solving.
-                        Experienced in building real-world PHP–MySQL applications with a focus on functionality, scalability,
-                        and user experience. Eager to apply academic knowledge to professional software development and
-                        database management roles.
+                        Final-year MCA student and Full Stack Developer Intern with practical experience developing scalable web applications
+                   with Next.js, React, Tailwind CSS, and Convex. solid background in SQL, data analytics, and dashboard development,
+                 with hands-on experience gained through Deloitte’s Data Analytics Job Simulation. Strong desire to use data-driven
+                insights to enhance product performance.
+
                     </p>
                 </div>
 
@@ -40,7 +41,7 @@ export default function About() {
                                     </div>
                                 </CardHeader>
                                 <CardContent>
-                                    <p className="text-muted-foreground">CGPA: 8.49 (2nd Sem) – Pursuing</p>
+                                    <p className="text-muted-foreground">CGPA: 8.56 (3rd Sem) – Pursuing</p>
                                 </CardContent>
                             </Card>
 
@@ -118,7 +119,7 @@ export default function About() {
                                             <Wrench className="w-4 h-4 text-yellow-400" /> Tools
                                         </h4>
                                         <div className="flex flex-wrap gap-2">
-                                            {["XAMPP", "Tableau (Basics)", "VS Code", "Git"].map(tool => (
+                                            {["XAMPP", "Tableau","Power BI", "VS Code", "Git"].map(tool => (
                                                 <Badge key={tool} variant="outline" className="bg-primary/10 hover:bg-primary/20">{tool}</Badge>
                                             ))}
                                         </div>
@@ -181,7 +182,45 @@ export default function About() {
                                 </div>
                             ))}
                         </div>
-                    </div>
+                        </div>
+                        {/* Virtual Experience Section */}
+<div className="md:col-span-2 flex justify-center">
+  <div className="w-full max-w-3xl">
+    
+    <div className="flex items-center gap-3 mb-6">
+      <Laptop className="w-6 h-6 text-primary" />
+      <h3 className="text-2xl font-bold">Virtual Experience</h3>
+    </div>
+
+    <Card className="bg-gradient-card border-border hover:border-primary/50 transition-all">
+      <CardContent className="pt-6 space-y-4">
+        
+        <h4 className="text-lg font-semibold flex items-center gap-2">
+          <BarChart3 className="w-4 h-4 text-blue-400" />
+          Deloitte Australia – Data Analytics Job Simulation (Jan 2026)
+        </h4>
+
+        {[
+          "Completed a data analytics simulation focused on forensic technology and business intelligence use cases",
+          "Analyzed and classified structured datasets using Excel to derive business insights",
+          "Built an interactive Tableau dashboard to visualize key performance indicators",
+          "Applied data interpretation techniques to simulate real-world consulting problem-solving"
+        ].map((item, index) => (
+          <div
+            key={index}
+            className="flex items-start gap-3"
+          >
+            <div className="w-2 h-2 rounded-full bg-yellow-400 mt-2" />
+            <span className="text-muted-foreground">{item}</span>
+          </div>
+        ))}
+      </CardContent>
+    </Card>
+
+  </div>
+</div>
+
+                    
                 </div>
             </div>
         </section>

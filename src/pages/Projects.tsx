@@ -40,7 +40,7 @@ const Projects = () => {
         },
         {
             title: "Personal Portolio Website",
-            year: "2026",
+            year: "2025",
             description:
                 "Designed and built a responsive personal portfolio website using React,Typescript and vite to showcase projects, skills, and contact information. Implemented clean UI, reusable project components and deployment for easy access by recruiters.",
             technologies: ["React", "TypeScript", "Tailwind CSS", "Vite", "Vercel"],
