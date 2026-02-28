@@ -1,38 +1,23 @@
 import { Badge } from "@/components/ui/badge";
-import { Database, Server, Code2 ,Gamepad2,Briefcase} from "lucide-react";
+import { Database, Server, Code2 ,Gamepad2,Briefcase,BarChart4} from "lucide-react";
 
 
 const Projects = () => {
     const projects = [
+
         {
-            title: "Train Ticket Reservation System",
-            year: "2024",
+            title: "Sales Analytics Dashboard (Full Stack Web App)",
+            year: "2026",
             description:
-                "Designed and developed a comprehensive ticket reservation system with form validation and automated booking summaries. Improved booking efficiency by 40% with zero duplicate entries.",
-            technologies: ["PHP", "MySQL", "HTML", "CSS"],
+                "Developed a full-stack sales analytics dashboard using React, Node.js, and MongoDB to visualize sales data and performance metrics. Implemented real-time data updates, user authentication, and responsive design for cross-platform compatibility.",
+            technologies: ["React", "Node.js", "MongoDB", "Express", "Chart.js"],
             highlights: [
-                "40% improvement in booking efficiency",
-                "100% accurate data storage",
-                "Automated booking summaries",
+                "Real-time data visualization with Chart.js",
+                "User authentication and authorization with JWT",
+                "Designed RESTful APIs using Express.js and MongoDB to manage sales, users, and revenue data.",
+                "Added advanced filtering (date range, category, status) with proper loading and error handling.",
             ],
-            icon: Server,
-            color: "from-cyan-500 to-blue-500",
-            hoverBorder: "hover:border-blue-500/50",
-            iconBg: "bg-blue-500/10",
-            iconColor: "text-blue-400"
-        },
-        {
-            title: "Project Management System",
-            year: "2025",
-            description:
-                "Built a role-based project management portal for efficient task allocation with secure authentication and an interactive dashboard. Reduced task delays by 35%.",
-            technologies: ["PHP", "MySQL", "JavaScript", "CSS"],
-            highlights: [
-                "Role-based access control",
-                "35% reduction in task delays",
-                "Interactive dashboard",
-            ],
-            icon: Database,
+            icon: BarChart4,
             color: "from-purple-500 to-pink-500",
             hoverBorder: "hover:border-purple-500/50",
             iconBg: "bg-purple-500/10",
@@ -74,7 +59,41 @@ const Projects = () => {
             iconBg: "bg-purple-500/10",
             iconColor: "text-purple-400"
         },
+        {
+            title: "Project Management System",
+            year: "2025",
+            description:
+                "Built a role-based project management portal for efficient task allocation with secure authentication and an interactive dashboard. Reduced task delays by 35%.",
+            technologies: ["PHP", "MySQL", "JavaScript", "CSS"],
+            highlights: [
+                "Role-based access control",
+                "35% reduction in task delays",
+                "Interactive dashboard",
+            ],
+            icon: Database,
+            color: "from-purple-500 to-pink-500",
+            hoverBorder: "hover:border-purple-500/50",
+            iconBg: "bg-purple-500/10",
+            iconColor: "text-purple-400"
+        },
 
+        {
+            title: "Train Ticket Reservation System",
+            year: "2024",
+            description:
+                "Designed and developed a comprehensive ticket reservation system with form validation and automated booking summaries. Improved booking efficiency by 40% with zero duplicate entries.",
+            technologies: ["PHP", "MySQL", "HTML", "CSS"],
+            highlights: [
+                "40% improvement in booking efficiency",
+                "100% accurate data storage",
+                "Automated booking summaries",
+            ],
+            icon: Server,
+            color: "from-cyan-500 to-blue-500",
+            hoverBorder: "hover:border-blue-500/50",
+            iconBg: "bg-blue-500/10",
+            iconColor: "text-blue-400"
+        },
 
     ];
 
