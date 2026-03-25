@@ -1,5 +1,5 @@
 import { Badge } from "@/components/ui/badge";
-import { Database, Server, Code2 ,Gamepad2,Briefcase,BarChart4, ClipboardList} from "lucide-react";
+import { Database, Server, Code2, Gamepad2, Briefcase, BarChart4, ClipboardList } from "lucide-react";
 
 
 const Projects = () => {
@@ -8,23 +8,23 @@ const Projects = () => {
         {
             title: "Job Application Tracker(Full Stack Web App)",
             year: "FEB 2026",
-    description:
-        "Developed a full-stack job application tracking system using Next.js and Firebase, enabling users to manage applications and monitor their progress in real-time with an intuitive and responsive interface.",
-    
-    technologies: ["Next.js", "Firebase", "Shadcn UI","Tailwind CSS"],
+            description:
+                "Developed a full-stack job application tracking system using Next.js and Firebase, enabling users to manage applications and monitor their progress in real-time with an intuitive and responsive interface.",
+
+            technologies: ["Next.js", "Firebase", "Shadcn UI", "Tailwind CSS"],
 
             highlights: [
-        "Implemented real-time application tracking with status updates (Applied, Interview, Offer, Rejected)",
-        "Integrated Firebase for authentication, database storage, and live data synchronization",
-        "Designed a clean and responsive UI using Tailwind CSS for seamless user experience",
-        "Built dynamic forms to add, update, and manage job applications efficiently",
-        "Ensured data consistency and performance with optimized Firebase queries"
-    ],
+                "Implemented real-time application tracking with status updates (Applied, Interview, Offer, Rejected)",
+                "Integrated Firebase for authentication, database storage, and live data synchronization",
+                "Designed a clean and responsive UI using Tailwind CSS for seamless user experience",
+                "Built dynamic forms to add, update, and manage job applications efficiently",
+                "Ensured data consistency and performance with optimized Firebase queries"
+            ],
             icon: ClipboardList,
-            color: "from-purple-500 to-pink-500",
-            hoverBorder: "hover:border-purple-500/50",
-            iconBg: "bg-purple-500/10",
-            iconColor: "text-purple-400"
+            color: "from-cyan-500 to-yellow-500",
+            hoverBorder: "hover:border-cyan-500/50",
+            iconBg: "bg-cyan-500/10",
+            iconColor: "text-cyan-400"
         },
         {
             title: "Sales Analytics Dashboard (Full Stack Web App)",
@@ -39,7 +39,7 @@ const Projects = () => {
                 "Added advanced filtering (date range, category, status) with proper loading and error handling.",
             ],
             icon: BarChart4,
-            color: "from-purple-500 to-pink-500",
+            color: "from-blue-500 to-pink-500",
             hoverBorder: "hover:border-purple-500/50",
             iconBg: "bg-purple-500/10",
             iconColor: "text-purple-400"
@@ -58,10 +58,10 @@ const Projects = () => {
                 "Centralized display of all academic and personal projects",
             ],
             icon: Briefcase,
-            color: "from-purple-500 to-pink-500",
-            hoverBorder: "hover:border-purple-500/50",
-            iconBg: "bg-purple-500/10",
-            iconColor: "text-purple-400"
+            color: "from-teal-500 to-blue-500",
+            hoverBorder: "hover:border-blue-500/50",
+            iconBg: "bg-blue-500/10",
+            iconColor: "text-blue-400"
         }, {
             title: "Memory Match Game",
             year: "JAN 2026",
@@ -75,10 +75,10 @@ const Projects = () => {
                 "Move counter for performance tracking",
             ],
             icon: Gamepad2,
-            color: "from-purple-500 to-pink-500",
-            hoverBorder: "hover:border-purple-500/50",
-            iconBg: "bg-purple-500/10",
-            iconColor: "text-purple-400"
+            color: "from-green-500 to-amber-500",
+            hoverBorder: "hover:border-green-500/50",
+            iconBg: "bg-green-500/10",
+            iconColor: "text-green-400"
         },
         {
             title: "Project Management System",
@@ -92,10 +92,10 @@ const Projects = () => {
                 "Interactive dashboard",
             ],
             icon: Database,
-            color: "from-purple-500 to-pink-500",
-            hoverBorder: "hover:border-purple-500/50",
-            iconBg: "bg-purple-500/10",
-            iconColor: "text-purple-400"
+            color: "from-orange-500 to-green-500",
+            hoverBorder: "hover:border-orange-500/50",
+            iconBg: "bg-orange-500/10",
+            iconColor: "text-orange-400"
         },
 
         {
@@ -110,10 +110,10 @@ const Projects = () => {
                 "Automated booking summaries",
             ],
             icon: Server,
-            color: "from-cyan-500 to-blue-500",
-            hoverBorder: "hover:border-blue-500/50",
-            iconBg: "bg-blue-500/10",
-            iconColor: "text-blue-400"
+            color: "from-cyan-500 to-emerald-500",
+            hoverBorder: "hover:border-cyan-500/50",
+            iconBg: "bg-cyan-500/10",
+            iconColor: "text-cyan-400"
         },
 
     ];
@@ -124,7 +124,8 @@ const Projects = () => {
                 <div className="text-center mb-16 animate-slide-up">
                     <span className="text-primary font-mono text-sm tracking-wider uppercase">Portfolio</span>
                     <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6">
-                        Featured <span className="text-gradient-primary">Projects</span>
+                        Featured <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-teal-500">
+Projects</span>
                     </h2>
                     <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
                         Real-world applications I've built to solve practical problems.

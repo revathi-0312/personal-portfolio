@@ -56,7 +56,7 @@ export default function Home() {
 
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             Hi, I'm{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">
+<span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-red-500">
               Revathi
             </span>
           </h1>

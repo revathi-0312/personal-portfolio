@@ -10,7 +10,7 @@ export default function About() {
                 <div className="text-center mb-16 animate-slide-up">
                     <span className="text-primary font-mono text-sm tracking-wider uppercase">Profile</span>
                     <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6">
-                        About <span className="text-gradient-primary">Me</span>
+                        About <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-purple-500">Me</span>
                     </h2>
                     <p className="text-muted-foreground text-lg max-w-3xl mx-auto leading-relaxed">
                         Final-year MCA student and Full Stack Developer Intern with practical experience developing scalable web applications

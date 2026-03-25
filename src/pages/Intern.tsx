@@ -9,7 +9,8 @@ export default function Intern() {
                 <div className="text-center mb-16 animate-slide-up">
                     <span className="text-primary font-mono text-sm tracking-wider uppercase">Experience</span>
                     <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6">
-                        Internship <span className="text-gradient-primary">Details</span>
+                        Internship <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-pink-500">
+Details</span>
                     </h2>
                     <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
                         My professional journey and hands-on experience in the industry.
