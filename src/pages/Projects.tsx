@@ -1,13 +1,34 @@
 import { Badge } from "@/components/ui/badge";
-import { Database, Server, Code2 ,Gamepad2,Briefcase,BarChart4} from "lucide-react";
+import { Database, Server, Code2 ,Gamepad2,Briefcase,BarChart4, ClipboardList} from "lucide-react";
 
 
 const Projects = () => {
     const projects = [
 
         {
+            title: "Job Application Tracker(Full Stack Web App)",
+            year: "FEB 2026",
+    description:
+        "Developed a full-stack job application tracking system using Next.js and Firebase, enabling users to manage applications and monitor their progress in real-time with an intuitive and responsive interface.",
+    
+    technologies: ["Next.js", "Firebase", "Shadcn UI","Tailwind CSS"],
+
+            highlights: [
+        "Implemented real-time application tracking with status updates (Applied, Interview, Offer, Rejected)",
+        "Integrated Firebase for authentication, database storage, and live data synchronization",
+        "Designed a clean and responsive UI using Tailwind CSS for seamless user experience",
+        "Built dynamic forms to add, update, and manage job applications efficiently",
+        "Ensured data consistency and performance with optimized Firebase queries"
+    ],
+            icon: ClipboardList,
+            color: "from-purple-500 to-pink-500",
+            hoverBorder: "hover:border-purple-500/50",
+            iconBg: "bg-purple-500/10",
+            iconColor: "text-purple-400"
+        },
+        {
             title: "Sales Analytics Dashboard (Full Stack Web App)",
-            year: "2026",
+            year: "FEB 2026",
             description:
                 "Developed a full-stack sales analytics dashboard using React, Node.js, and MongoDB to visualize sales data and performance metrics. Implemented real-time data updates, user authentication, and responsive design for cross-platform compatibility.",
             technologies: ["React", "Node.js", "MongoDB", "Express", "Chart.js"],
@@ -25,7 +46,7 @@ const Projects = () => {
         },
         {
             title: "Personal Portolio Website",
-            year: "2025",
+            year: "DEC 2025",
             description:
                 "Designed and built a responsive personal portfolio website using React,Typescript and vite to showcase projects, skills, and contact information. Implemented clean UI, reusable project components and deployment for easy access by recruiters.",
             technologies: ["React", "TypeScript", "Tailwind CSS", "Vite", "Vercel"],
@@ -43,7 +64,7 @@ const Projects = () => {
             iconColor: "text-purple-400"
         }, {
             title: "Memory Match Game",
-            year: "2026",
+            year: "JAN 2026",
             description:
                 "Developed an interactive Memory Card Game using JavaScript, HTML, and CSS, featuring smart shuffle logic to prevent adjacent matches,move counter for performance tracking. Implemented responsive UI with smooth card interactions to enhance gameplay experience..",
             technologies: ["HTML", "JavaScript", "CSS"],
@@ -61,7 +82,7 @@ const Projects = () => {
         },
         {
             title: "Project Management System",
-            year: "2025",
+            year: "MAY 2025",
             description:
                 "Built a role-based project management portal for efficient task allocation with secure authentication and an interactive dashboard. Reduced task delays by 35%.",
             technologies: ["PHP", "MySQL", "JavaScript", "CSS"],
@@ -79,7 +100,7 @@ const Projects = () => {
 
         {
             title: "Train Ticket Reservation System",
-            year: "2024",
+            year: "MAY 2024",
             description:
                 "Designed and developed a comprehensive ticket reservation system with form validation and automated booking summaries. Improved booking efficiency by 40% with zero duplicate entries.",
             technologies: ["PHP", "MySQL", "HTML", "CSS"],
