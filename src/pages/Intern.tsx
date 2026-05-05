@@ -1,8 +1,6 @@
-import { Badge } from "@/components/ui/badge";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Briefcase, Calendar, MapPin, Code2, Database, Server } from "lucide-react";
+import { Calendar, MapPin, Code2, Database } from "lucide-react";
 import { Canvas } from "@react-three/fiber";
-import { Float, OrbitControls, Stars, Line } from "@react-three/drei";
+import { Float, OrbitControls, Stars } from "@react-three/drei";
 import { Suspense } from "react";
 
 const TechNode = ({ position, color, size = 0.3 }: any) => (

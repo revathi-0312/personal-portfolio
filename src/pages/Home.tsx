@@ -5,7 +5,7 @@ import { Float, OrbitControls, Stars } from "@react-three/drei";
 import { Suspense } from "react";
 import { Github, Linkedin, Mail, ExternalLink } from "lucide-react";
 import profileImg from "../assets/profile.png";
-import { Link } from "react-router-dom";
+
 
 const AnimatedShape = ({ position, rotation, color, geometry }: any) => (
   <Float speed={1.5} rotationIntensity={0.4} floatIntensity={1.2}>

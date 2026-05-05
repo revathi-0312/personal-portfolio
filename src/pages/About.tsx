@@ -1,6 +1,4 @@
-import { Badge } from "@/components/ui/badge";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { BookOpen, Trophy, Award, Code2, Database, Wrench, Laptop, BarChart3 } from "lucide-react";
+import { BookOpen, Trophy, Award, Code2, Database} from "lucide-react";
 import { Canvas } from "@react-three/fiber";
 import { Float, OrbitControls, Stars } from "@react-three/drei";
 import { Suspense } from "react";
